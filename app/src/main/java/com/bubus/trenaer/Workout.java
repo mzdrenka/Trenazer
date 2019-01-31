@@ -24,8 +24,8 @@ public class Workout {
     };
     // Każdy trening (Workout) zawiera nazwę i opis
     private Workout(String name, String description){
-        name = this.name;
-        description = this.description;
+        this.name = name;
+        this.description = description;
     }
 
     public String getName(){
